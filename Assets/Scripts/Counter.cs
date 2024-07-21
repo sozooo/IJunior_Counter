@@ -5,7 +5,7 @@ using UnityEngine;
 public class Counter : MonoBehaviour
 {
     private float _currentCount = 0f;
-    private readonly float _increaseAmount = 0.5f;
+    private readonly float _increaseAmount = 1f;
     private float _period = 0.5f;
 
     private Coroutine _countCoroutine;
